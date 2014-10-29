@@ -71,6 +71,19 @@ a{
     color: #fff;
 
 }
+.bg-plane{
+
+    background-color: rgba(0,0,0,0.6);
+    background: url('../images/plane.jpg')
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+}
 .layout{
     background-color: rgba(0,0,0,0.8);
     width: 100%;
@@ -117,6 +130,18 @@ a{
     font-size: 40px !important;
     border-radius: 50%;
     margin: 20px;
+    border:3px solid #fff;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    cursor: pointer;
+}
+.round-icon:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+    transform:scale(1.15);
 }
 .social-buttons{
     margin-top: 40px;
@@ -124,23 +149,40 @@ a{
     width: 100%;
 
 }
+
 .fa-twitter{
     background: #3498db;
+
 }
+.fa-twitter:hover{
+
+    border-color: #3498db;
+}
+
 .fa-facebook{
     background: #2980b9;
+}
+.fa-facebook:hover{
+    border-color: #2980b9;
 }
 .fa-linkedin{
     background: #2b5da5;
 }
+.fa-linkedin:hover{
+    border-color: #2b5da5;
+}
 .fa-google{
     background: #e74c3c;
+}
+.fa-google:hover{
+    border-color: #e74c3c;
 }
 .fa-angle-down{
     background: #2ecc71;
 }
 
 .down-button{
+    height: 0px;
     position: relative;
     float: right;
     margin-top: -55px;
