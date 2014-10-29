@@ -1,0 +1,99 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNova-Light.otf");
+    font-weight: 100;
+}/**/
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNova-Regular.otf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNova-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNova-Semibold.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNova-Bold.otf");
+    font-weight: 700;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'ProximaNova', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    width: 100%;
+
+}
+
+h2{
+
+    font-weight: 200;
+}
+a{
+    color: #2ecc71;
+    text-decoration: none;
+}
+.main-container{
+    float: left;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    background: url('../images/bg2.jpeg')
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90vh;
+
+}
+.layout{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: inherit;
+    float: left;
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: table;
+}
+.profile-container{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    background-color: #333;
+    margin: 0 auto;
+    background-image: url('../images/fotoperfil.jpeg');
+    background-size: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
