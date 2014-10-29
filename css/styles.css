@@ -76,7 +76,7 @@ a{
 
     background-color: rgba(0,0,0,0.6);
     background: url('../images/plane.png')
-    no-repeat center center fixed;
+    no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
