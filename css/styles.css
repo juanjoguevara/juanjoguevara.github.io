@@ -62,14 +62,17 @@ a{
 .main-container{
     float: left;
     width: 100%;
+    background-color: #aba9ac;
+    background-image: url('../images/yobg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 
-    background: url('../images/yobg.png')
-    no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     color: #fff;
 
 }
@@ -86,7 +89,7 @@ a{
 
 }
 .layout{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.2);
     width: 100%;
     height: inherit;
     float: left;
@@ -101,9 +104,14 @@ a{
 .centered-container{
     display: table-cell;
     vertical-align: middle;
+}
+.title{
+    position: absolute;
+    left: 0;
+    bottom:0;
     text-align: left;
-    padding-left: 100px;
-
+    padding: 50px;
+    padding-bottom: 50px;
 }
 .avatar{
     width: 120px;
@@ -214,4 +222,32 @@ a{
     bottom: 0px;
     float: left;
     width: 100%;
+}
+@media only screen and (max-width: 767px) and (max-height: 500px){
+    .main-container{
+        background-image: url('../images/yobg.png');
+       background-size: 110%;
+       background-position: left bottom;
+        background-attachment: scroll;
+   }
+    .title{
+        padding-left: 10px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 467px) {
+    /* Here, rules for anything less than Ipads width, with the
+       advice to design for the smallest common width, 320px.
+       This is the majority of smarthphones. */
+    .title{
+        padding: 20px;
+    }
+    .main-container{
+        background-image: url('../images/yobg2.png');
+        background-size: 120%;
+        background-position: right bottom;
+        background-attachment: scroll;
+
+    }
+
 }
