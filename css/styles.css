@@ -63,7 +63,7 @@ a{
     float: left;
     width: 100%;
 
-    background: url('../images/bg.jpg')
+    background: url('../images/yobg.png')
     no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -86,7 +86,7 @@ a{
 
 }
 .layout{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
     width: 100%;
     height: inherit;
     float: left;
@@ -101,6 +101,8 @@ a{
 .centered-container{
     display: table-cell;
     vertical-align: middle;
+    text-align: left;
+    padding-left: 100px;
 
 }
 .avatar{
