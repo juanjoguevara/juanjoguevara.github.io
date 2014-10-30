@@ -249,5 +249,13 @@ a{
         background-attachment: scroll;
 
     }
+    .round-icon{
+
+        width: 45px;
+        height: 45px;
+        color: #fff;
+        line-height: 45px !important;
+        font-size: 25px !important;
+    }
 
 }
